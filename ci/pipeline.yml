@@ -26,7 +26,7 @@ resources:
     framework: netcoreapp2.1
     runtime: ubuntu.14.04-x64
     nuget_source: https://www.myget.org/F/dotnet-resource-test/api/v3/index.json
-    nuget_apikey: 88aff566-c3e0-4756-b26d-8158bd7edc8c
+    nuget_apikey: [NugetAPIKey]
   
 jobs:
 - name: build-service
