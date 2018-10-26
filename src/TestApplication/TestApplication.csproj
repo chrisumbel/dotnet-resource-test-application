@@ -13,6 +13,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App"  />
+    <PackageReference Include="Steeltoe.Extensions.Configuration.CloudFoundry">
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="manifest.yml" CopyToOutputDirectory="Always" CopyToPublishDirectory="Always" />
   </ItemGroup>
 
 </Project>

@@ -19,6 +19,8 @@ namespace TestApplication
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+            .UseCloudFoundryHosting()
+            .AddCloudFoundry()
+            .UseStartup<Startup>();
     }
 }
