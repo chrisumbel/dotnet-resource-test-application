@@ -1,4 +1,4 @@
 ---
 applications:
-- name: dotnetresourcetestapp
+- name: umbel-dotnetresourcetestapp
   buildpack: dotnet_core_buildpack
